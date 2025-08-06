@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Retro Gaming";
+    src: url('FONTS/retro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Cafe";
+    src: url('FONTS/cafe.ttf') format('truetype');
+}
+
+#begin {
+    background-image: url('assets/beginbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #49CBBE;
+}
+
+
+.start {
+    background-color: #B2EDE7;
+    border-style:solid;
+    border-radius: 8px;    
+    transition: transform 0.4s;
+    border-color: #49CBBE;
+    box-shadow: 0 0 5px black;
+
+}
+
+.start:hover {
+        transform: scale(1.5);
+    }
+ 
+
+.pressHearts {
+    color: #49CBBE;
+    text-shadow: .5px .5px 1px black;
+    font-family: "Retro Gaming";
+    font-weight: lighter;
+}
+
+
+
+
+.beginWelcome {
+    color: #49CBBE;
+    text-shadow: .5px .5px 1px black;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: "Retro Gaming";
+    font-weight: lighter;
+}
+
+.beginCoquette {
+    background-color: #D9F3EA;
+    border-style: dotted;
+    border-radius: 40px;
+    border-color: white;
+    box-shadow: 0 0 40px #69C7BE;
+    text-align: center;
+    padding-right: 20px;
+
+    
+}
+
+.about {
+    list-style-type: disc;
+    list-style-position:inside;
+    font-size: 25px;
+    font-family: "Cafe";
+    
+}
