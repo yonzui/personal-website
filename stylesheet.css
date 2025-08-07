@@ -1,3 +1,5 @@
+/* FONTS */
+
 @font-face {
     font-family: "Retro Gaming";
     src: url('FONTS/retro.ttf') format('truetype');
@@ -8,16 +10,21 @@
     src: url('FONTS/cafe.ttf') format('truetype');
 }
 
+/* BEGIN PAGE */
+
 #begin {
-    background-image: url('assets/beginbackground.png');
+    background-image: url('assets/begin_background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
 
-a {
+
+
+.buttonLink {
     text-decoration: none;
     color: #49CBBE;
 }
@@ -30,6 +37,7 @@ a {
     transition: transform 0.4s;
     border-color: #49CBBE;
     box-shadow: 0 0 5px black;
+    font-size: 30px;
 
 }
 
@@ -46,8 +54,6 @@ a {
 }
 
 
-
-
 .beginWelcome {
     color: #49CBBE;
     text-shadow: .5px .5px 1px black;
@@ -59,12 +65,12 @@ a {
 
 .beginCoquette {
     background-color: #D9F3EA;
-    border-style: dotted;
+    border-style: solid;
     border-radius: 40px;
     border-color: white;
     box-shadow: 0 0 40px #69C7BE;
     text-align: center;
-    padding-right: 20px;
+    padding: 20px;
 
     
 }
@@ -75,4 +81,69 @@ a {
     font-size: 25px;
     font-family: "Cafe";
     
+}
+
+.taiyaki {
+    float: right;
+}
+
+/* BEGIN PAGE END */
+
+
+/* WELCOME PAGE */
+
+#layout {
+    display: grid;
+    grid-template-columns: .7fr 4fr 1fr;
+    column-gap: 10px;
+}
+
+header {
+    border-style: solid;
+    border-radius: 40px;
+    grid-column: span 3;
+    text-align: center;
+    margin: 3% 6.5% 2%;
+}
+
+/* COLUMNS */
+
+.leftNavigation {
+    border-style: solid;
+    border-radius: 40px;
+    padding: 30px;
+    margin-left: 55%;
+    padding-right: 70%;
+    height: 120%;
+}
+
+.middle {
+    border-style: solid;
+    border-radius: 40px;
+    margin-left: 9%;
+    margin-right: 1.5%;
+    height: 120%;
+
+}
+
+    .middle h1 {
+        font-size: 3.5em;
+        max-width: 700px;
+    }
+
+.right {
+    border-style: solid;
+    border-radius: 40px;
+    margin-right: 35%;
+    height: 120%;
+
+
+}
+
+footer {
+    border-style: solid;
+    border-radius: 40px;
+    grid-column: span 3;
+    text-align: center;
+    margin: 15% 6.5% 2%;
 }
