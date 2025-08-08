@@ -93,63 +93,74 @@
 /* WELCOME PAGE */
 
 #site {
-    background-image: url("ASSETS/wrinkly.jpg");
+    background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+main {
+    background-color: #FFF7D4;
     border-style:double;
-    border-color: #F5EDE4;
+    border-color: #FF7094;
     border-radius: 40px;
-    border-width:7px;
+    border-width:10px;
     margin: 1% 9% 2%;
     box-shadow: 0 0 10px rgb(69, 69, 69);
-
 }
 
 #layout {
     display: grid;
     grid-template-columns: .7fr 4fr 1fr;
-    column-gap: 1%;
-    background-color: aliceblue;
+    column-gap: 2%;
     border-radius: 40px;
+    margin: 5%;
 
 }
 
 header {
     border-style:double;
     border-width:7px;
-    border-color: #F5EDE4;
+    border-color: #FF7094;
     border-radius: 40px 40px 0 0;
     box-shadow: 0 0 10px rgb(69, 69, 69);
     grid-column: span 3;
-    text-align: center;
-    margin: 3% 6.5% 2%;
-    padding-top: 15%;
     image-rendering: auto;
-     background-image: url("ASSETS/rilakkumaJellyfish.png");
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-image: url("ASSETS/splatterBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    margin-bottom: 2%;
 }
+
+
 
 /* COLUMNS */
 
-li a {
+ul {
+    list-style-type: none;
+
+}
+
+li {
     display: block;
+}
+
+li a {
     text-decoration: none;
+    border: 2px solid;
+    padding: 10px;
+
+    
 }
 
 .leftNavigation {
     border-style: double;
     border-width:7px;
-    border-color: #F5EDE4;
+    border-color: #FF7094;
     box-shadow: 0 0 10px rgb(69, 69, 69);
-    padding: 30px;
-    margin-left:55%;
-    padding-right: 70%;
-    height: 120%;
-    background-image: url("ASSETS/splatter.jpg");
+    background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .leftNavigation h4 {
@@ -165,12 +176,9 @@ li a {
     
     border-style: double;
     border-width:7px;
-    border-color: #F5EDE4; 
+    border-color: #FF7094; 
     box-shadow: 0 0 10px rgb(69, 69, 69);
-    height: 129.5%;
-    margin-left: 10%;
-    margin-right: 10px;
-    background-image: url("ASSETS/splatter.jpg");
+    background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -190,22 +198,24 @@ li a {
     box-shadow: 0 0 10px rgb(69, 69, 69);
     border-style: double;
     border-width:7px;
-    border-color: #F5EDE4;
-    height: 129.5%;
-    margin-right: 37%;
-    background-image: url("ASSETS/splatter.jpg");
+    border-color: #FF7094;
+    background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 footer {
-    border-style: ridge;
-    border-radius: 40px;
+    border-radius: 0 0 40px 40px;
+    border-style: double;
+    border-width: 7px;
+    border-color: #FF7094;
     grid-column: span 3;
     text-align: center;
-    margin: 15% 6.5% 2%;
-    background-image: url("ASSETS/splatter.jpg");
+    background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0 0 10px rgb(69, 69, 69);
+    margin-top: 2%;
 }
+
