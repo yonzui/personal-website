@@ -10,6 +10,10 @@
     src: url('FONTS/cafe.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Minecraft";
+    src: url('FONTS/Minecraft.ttf') format('truetype');
+}
 /* BEGIN PAGE */
 
 #begin {
@@ -98,7 +102,7 @@
     background-size: cover;
 }
 
-main {
+.welcomePage {
     background-color: #FFF7D4;
     border-style:double;
     border-color: #FF7094;
@@ -114,7 +118,6 @@ main {
     column-gap: 2%;
     border-radius: 40px;
     margin: 5%;
-
 }
 
 header {
@@ -145,13 +148,13 @@ li {
     display: block;
 }
 
-li a {
-    text-decoration: none;
-    border: 2px solid;
-    padding: 10px;
+    li a {
+        text-decoration: none;
+        border: 2px solid;
+        padding: 10px;
 
-    
-}
+        
+    }
 
 .leftNavigation {
     border-style: double;
@@ -163,14 +166,14 @@ li a {
     background-size: cover;
 }
 
-.leftNavigation h4 {
-    font-family: "Retro Gaming";
-    font-weight: lighter;
-}
+    .leftNavigation h4 {
+        font-family: "Retro Gaming";
+        font-weight: lighter;
+    }
 
-.leftNavigation li {
-    font-family: "Cafe";
-}
+    .leftNavigation li {
+        font-family: "Cafe";
+    }
 
 .middle {
     
@@ -188,10 +191,21 @@ li a {
         font-weight: lighter;
         font-size: 3.5em;
         max-width: 700px;
+        color: #FFD61F;
+        text-shadow: 0 2px 3px rgb(0, 0, 0);
+        line-height: 90%;
+        text-align: right;
     }
 
     .middle p {
-        font-family: "Cafe";
+        font-family: "Minecraft";
+        color: #000000;
+        text-shadow: 0 .5px .5px rgb(0, 0, 0);
+        line-height: 150%;
+        text-align: right;
+        margin-right: 15px;
+        margin-left: 10px;
+        font-size: 1.5em;
     }
 
 .right { 
@@ -219,3 +233,18 @@ footer {
     margin-top: 2%;
 }
 
+
+/* IMAGES */
+
+.burgerCute {
+    float:left;
+    width: 30%;
+    height: auto;
+    margin: 5% 2% 0 5%;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+    border-image: url("ASSETS/pinkPolkaBorder.png") 250 fill round;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+}
