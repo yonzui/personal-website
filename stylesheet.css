@@ -139,22 +139,14 @@ header {
 
 /* COLUMNS */
 
-ul {
+
+.fakeUL {
     list-style-type: none;
-
+    line-height: 200%;
 }
 
-li {
-    display: block;
-}
 
-    li a {
-        text-decoration: none;
-        border: 2px solid;
-        padding: 10px;
 
-        
-    }
 
 .leftNavigation {
     border-style: double;
@@ -164,16 +156,59 @@ li {
     background-image: url("ASSETS/splatterBG.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
+    .leftNavigation li {
+            border-style: solid;
+            border-width:9px;
+            border-image: url("ASSETS/biscuit border.gif") 9 fill round;
+            filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+            line-height: 50%;
+            margin: 0 10px 10px;
+            text-align: center;
+
+    }
+
+    .leftNavigation li a {
+            text-decoration: none;
+            padding: 10px;
+            font-family: "Minecraft";
+            font-size: 1.5em;
+            color: #734e19;
+            
+            
+    }
 
     .leftNavigation h4 {
         font-family: "Retro Gaming";
         font-weight: lighter;
+        border:5px solid;
+        border-width: 1px;
+        border-color: #FF7094;
+        background-color: #FF7094;
+        margin-bottom: 15%;
+        color:#FFF7D4;
+        text-shadow: 0 .5px .5px rgb(0, 0, 0);
     }
 
-    .leftNavigation li {
-        font-family: "Cafe";
-    }
+            .hiH4 {
+                text-align: left;
+                padding-left: 20%;
+            }
+            
+            .lovesH4 {
+                text-align: right;
+                padding-right: 11%;
+                
+            }
+
+            .otherH4 {
+                text-align: left;
+                padding-left: 9%;
+            }
+
+
 
 .middle {
     
@@ -195,6 +230,8 @@ li {
         text-shadow: 0 2px 3px rgb(0, 0, 0);
         line-height: 90%;
         text-align: right;
+        margin-right: 15px;
+
     }
 
     .middle p {
@@ -218,6 +255,45 @@ li {
     background-size: cover;
 
 }
+
+    .musicH3 {
+        margin: 10px 10px 10px;        
+        border-style: solid;
+        border-radius: 40px;
+        border-width: 20px;
+        border-image: url("ASSETS/greenPolka.png") 250 fill round;
+        filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+        padding: 5% 5% 40%;
+        text-align:center;
+
+}
+
+        .musicH3 h3 {
+        color:#40f74c;
+        font-family: "Retro Gaming";
+        font-weight: lighter;
+        text-shadow: 0 .5px .5px rgb(0, 0, 0);
+        margin-top: -3px;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        }
+
+
+        .musicH3 h5 {
+            font-family: "Minecraft";
+            font-size: 1em;
+            color: black;
+            text-shadow: none;
+            text-decoration: none;
+            filter: none;
+            margin: -10px -5px -5px;
+        }
+
+        .youtubeVid {
+
+        }
+
+
 
 footer {
     border-radius: 0 0 40px 40px;
@@ -245,6 +321,36 @@ footer {
     border-radius: 40px;
     border-width: 20px;
     border-image: url("ASSETS/pinkPolkaBorder.png") 250 fill round;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+}
+
+.rilakkumaTart {
+    width: 5%;
+    height: auto;
+    top: 44%;
+    left: 18%;
+    position: absolute;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+}
+
+
+.usagiHeart {
+    width: 3.75%;
+    height: auto;
+    top: 73%;
+    left: 15%;
+    position: absolute;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+}
+
+.pinkFlower {
+    width: 3.75%;
+    height: auto;
+    top: 122%;
+    left: 19.6%;
+    position: absolute;
     filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
 
 }
