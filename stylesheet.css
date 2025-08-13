@@ -263,12 +263,13 @@ header {
         border-width: 20px;
         border-image: url("ASSETS/greenPolka.png") 250 fill round;
         filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
-        padding: 5% 5% 40%;
         text-align:center;
+        align-items: center;
 
 }
 
         .musicH3 h3 {
+        padding: 5% 5% 0;
         color:#40f74c;
         font-family: "Retro Gaming";
         font-weight: lighter;
@@ -280,6 +281,7 @@ header {
 
 
         .musicH3 h5 {
+            padding: 0 5% 0;
             font-family: "Minecraft";
             font-size: 1em;
             color: black;
@@ -289,9 +291,94 @@ header {
             margin: -10px -5px -5px;
         }
 
-        .youtubeVid {
-
+        .playMusic {
+            margin-bottom: 5px;
         }
+
+.right li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.right h4 {
+        font-family: "Retro Gaming";
+        font-weight: lighter;
+        border:5px solid;
+        border-width: 1px;
+        border-color: #FF7094;
+        background-color: #FF7094;
+        padding: 8px;
+        color:#FFF7D4;
+        text-shadow: 0 .5px .5px rgb(0, 0, 0);    
+}
+
+.rightPanel h5 {
+    font-family: "Retro Gaming";
+    letter-spacing: 2px;
+    color:#FF7094;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px 0 5px;
+    border-style: solid;
+    border-width:15px;
+    border-image: url("ASSETS/lettuceBorder.png") 150 fill round;
+    text-shadow: 0px 1.5px 1.5px rgb(255, 255, 255);    
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+}
+
+.rightPanel p {
+    font-family: "Minecraft";
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: -10%;
+}
+
+.socialMedia {
+    margin: 30px 10px 10px;
+    text-align: center;
+}
+
+.socialMedia h3 {
+    font-family: "Retro Gaming";
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+    border-image: url("ASSETS/greenPolka.png") 250 fill round;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+    text-align:center;
+    padding: 5%;
+    color:#2ad0dc;
+    font-family: "Retro Gaming";
+    font-weight: lighter;
+    text-shadow: 0 .5px .5px rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+
+}
+
+
+
+.socialMedia li a {
+    color: #734e19;
+
+}
+
+.socialMedia p {  
+    border-style: solid;
+    border-width:9px;
+    border-image: url("ASSETS/biscuit border.gif") 9 fill round;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+    margin: 0 10px 10px;
+    text-align: center;
+    font-family: "Minecraft";
+    font-size: 1.5em;
+    color: #734e19;
+    line-height: 50%;
+            
+}
 
 
 
@@ -309,6 +396,13 @@ footer {
     margin-top: 2%;
 }
 
+
+/* MUSIC */
+
+audio {
+    border-radius: 40px;
+    width: 50%;
+}
 
 /* IMAGES */
 
@@ -353,4 +447,11 @@ footer {
     position: absolute;
     filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
 
+}
+
+.cover {
+    margin-top: 15%;
+    padding: none;
+    width: 65%;
+    align-items: center;
 }
