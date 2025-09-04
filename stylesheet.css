@@ -17,13 +17,9 @@
 /* BEGIN PAGE */
 
 #begin {
-    background-image: url('assets/begin_background2.jpg');
-    background-repeat: no-repeat;
+    background: url('assets/begin_background2.jpg') repeat 0 0;
+    animation: slide 20s linear infinite;
     background-size: cover;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }    
 
 
@@ -68,6 +64,7 @@
 }
 
 .beginCoquette {
+    margin: 5% 20% 0;
     background-color: #D9F3EA;
     border-style: solid;
     border-radius: 40px;
@@ -97,10 +94,16 @@
 /* WELCOME PAGE */
 
 #site {
-    background-image: url("ASSETS/splatterBG.png");
-    background-repeat: no-repeat;
+    animation: slide 20s linear infinite;
+    background: url("ASSETS/splatterBG.png") repeat 0 0;
     background-size: cover;
 }
+
+    @keyframes slide {
+        100% {
+            background-position: -550px -450px;
+        }
+    }
 
 .welcomePage {
     background-color: #FFF7D4;
@@ -245,26 +248,28 @@ header {
         font-size: 1.5em;
     }
 
-    .birthday {
-        margin: -5% 0 0 4%;
-        border-radius: 40px;
-        border-style: ridge;
-        border-color:#2ad0dc;
-        background-color: #B2EDE7;
-        border-width: 5px;
-        float: left;
-        text-align: center;
-        color:#FFF7D4;
-        text-shadow: 0 2px 3px rgb(0, 0, 0);
-        filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
-    }
+        .birthday {
+            margin: 5% 4% 0 4%;
+            border-radius: 40px;
+            border-style: ridge;
+            border-color:#2ad0dc;
+            background-color: #B2EDE7;
+            border-width: 5px;
+            align-items: center;
+            text-align: center;
+            color:#FFF7D4;
+            text-shadow: 0 2px 3px rgb(0, 0, 0);
+            filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+        }
 
     .birthday h3 {
         font-family: "Retro Gaming";
     }
 
 
-
+    .birthday p {
+        text-align: center;
+    }
 
 
 
@@ -406,6 +411,8 @@ header {
 
 
 footer {
+    font-family: "Retro Gaming";
+    color:#49CBBE;
     border-radius: 0 0 40px 40px;
     border-style: double;
     border-width: 7px;
@@ -417,6 +424,8 @@ footer {
     background-size: cover;
     box-shadow: 0 0 10px rgb(69, 69, 69);
     margin-top: 2%;
+    text-shadow: 0 .5px .5px rgb(0, 0, 0);
+
 }
 
 
@@ -660,6 +669,8 @@ footer {
     }
 
     .extraDesc li {
+    font-family: "Minecraft";
+    font-weight: bolder;
     margin: 0 4px 4px;
     border-style: solid;
     border-radius: 40px;
@@ -668,6 +679,71 @@ footer {
     filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
     display: inline-block;        
     }
+
+
+
+
+
+/* PICS */
+
+.picTab {
+    text-align: center;
+    font-family: "Retro Gaming";
+    font-size: 3.5em;
+    color:#FF7094;
+        text-shadow: 0 2px 2px rgb(0, 0, 0);     
+
+}
+
+    .picTab h3 {
+        background-color: #ffc4d2;
+        padding: 10px;
+        border-radius: 40px;
+        border: 15px ridge #FF7094;
+        display: inline-block;
+        filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+    }
+
+.picTab img {
+    align-items: center;
+    width: 25%;
+    height:auto;;
+    display: inline-block;
+
+}
+
+.picturesBorder img {
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+    border-image: url("ASSETS/pinkPolkaBorder.png") 250 fill round;   
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+}
+
+
+/* LINKS */
+.links {
+    text-align: center;
+}
+
+.links h3 {
+    text-align: center;
+    font-family: "Retro Gaming";
+    font-size: 3.5em;
+    color:#FFD61F;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);     
+
+}
+
+.links p {
+    text-align: center;
+    font-family: "Minecraft";
+    font-size: 1.5em;
+}
+
+
+
 
 
 
@@ -788,4 +864,39 @@ audio {
     border-width: 15px;
     filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
     filter:brightness(110%);
+}
+
+.iceCreams1 {
+width: 43%;
+position: absolute;
+left: 12%;
+bottom: -51%;
+border-style:none;
+filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+
+
+}
+
+.iceCreams2 {
+bottom: -60%;
+right: 8%;
+width: 55%;
+position: absolute;
+filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));
+}
+
+.iceCreamline {
+    margin-top: 9%;
+    border-top: 7px double #FF7094;
+}
+
+.iceCreamline img {
+    margin: 8% 0 0 5%;
+    display:inline;
+    width: 20%;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 20px;
+    border-image: url("ASSETS/pinkPolkaBorder.png") 250 fill round;
+    filter: drop-shadow(0px 2px 2px rgb(0, 0, 0));    
 }
