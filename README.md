@@ -1,7 +1,7 @@
 ### about melo(n)
 this is a suuuuuuuper laid back personal website i made (if u can even call it that LOL). i got a lot of my inspo from different sites on neocities, and used html, css, and java in vscode in order to develop this website. this site has some of my niche interests, as well as information about me and my life. the inspiration for this site's name came from some of my favorite fruits: watermelon, cantaloupe, and honeydew!
 
-i had a lot of fun making this, and this is my first ever big project related to computer science. i made this mainly to submit to hack club's athena award, as well as to get more complex practice with html, css, and js.
+i had a lot of fun making this, and this is my first ever big project related to computer science. i made this mainly to submit to hack club's athena award, as well as to get more complex practice with html, css, and js. [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 ### keep in mind...
 1. this is meant to be viewed on desktop only! i'm very very new at coding, so there's definitely messy spots in my code that i should clean up later.
