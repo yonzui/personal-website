@@ -1,4 +1,4 @@
-### about mel(o)n
+### about melo(n)
 this is a suuuuuuuper laid back personal website i made (if u can even call it that LOL). i got a lot of my inspo from different sites on neocities, and used html+css+js in vscode in order to develop this website. i had a lot of fun making this, and this is my first ever big project related to computer science. this is also my main project for hack club's athena award!
 ### keep in mind...
 1. this is meant to be viewed on desktop only! i'm very very new at coding, so there's definitely messy spots in my code that i should clean up later.
